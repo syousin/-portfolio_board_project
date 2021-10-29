@@ -1,0 +1,218 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+* {
+	font-family: 'Nanum Gothic';
+}
+h5 {
+	font-family: 'Noto Sans KR';
+	font-weight: bold;
+}
+h4 {
+	font-family: 'Noto Sans KR';
+	font-weight: bold;
+}
+h3 {
+	font-family: 'Hanna';
+}
+h2 {
+	font-family: 'Hanna';
+}
+h1 {
+	font-family: 'Hanna';
+}
+
+thead th {
+	background-color: #353535;
+	color: white;
+	text-align: center;
+}
+tr td:first-child,
+tr th:first-child {
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+tr td:last-child,
+tr th:last-child {
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+tr {
+	background-color: #f9f9f9;
+}
+
+.vertical-alignment-helper {
+	display: table;
+	height: 100%;
+	width: 100%;
+	pointer-events: none;
+}
+.vertical-alignment-center {
+	display: table-cell;
+	vertical-align: middle;
+	pointer-events: none;
+}
+.modal-content {
+	width: inherit;
+	height: inherit;
+	margin: 0 auto;
+	pointer-events: all;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #bbbbbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.navbar-default {
+	background-color: #353535;
+	border-color: #353535;
+	border-bottom-color: #4e4e4e;
+	border-bottom-width: 3px;
+	border-raidus: 0px;
+}
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
+	padding-top: 25px;
+	font-family: 'Hanna';
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #dddddd;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #454545;
+}
+.navbar-default .navbar-nav > li > a {
+	color: white;
+	font-family: 'Noto Sans KR';
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #dddddd;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #454545;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: #454545;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #dddddd;
+}
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+		color: #ffffff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus	{
+		color: #eeeeee;
+	}
+}
+
+.navbar-fixed-top {
+	min-height: 70px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #454545;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #343434;
+  outline: 0;
+}
+
+.navbar-nav > li > a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 70px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #454545;
+  border-color: #272727;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #343434;
+  border-color: #272727;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #343434;
+  border-color: #272727;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #343434;
+  border-color: #272727;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: #343434;
+  border-color: #272727;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+  background-color: #343434;
+  border-color: #272727;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-brand {
+		padding-top : 15px;
+	}
+	.navbar-nav >li > a {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		line-height: 40px;
+	}
+}
